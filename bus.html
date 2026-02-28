@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Senior Citizen Bus Eligibility Checker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="card">
+        <h2>🚌 Bus Eligibility Checker</h2>
+
+        <label>
+            <input type="checkbox" id="seatCheck">
+            Seat Available
+        </label>
+
+        <label>
+            <input type="checkbox" id="aadharCheck">
+            Aadhar Card Available
+        </label>
+
+        <label>
+            Enter Age:
+            <input type="number" id="ageInput" placeholder="Enter your age">
+        </label>
+
+        <div class="buttons">
+            <button id="checkBtn">Check Eligibility</button>
+            <button id="resetBtn" class="reset">Reset</button>
+        </div>
+
+        <p id="result"></p>
+    </div>
+
+    <div class="image-box">
+        <img src="bus.jpg" alt="Bus Image" id="busImg">
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
